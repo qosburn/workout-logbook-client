@@ -9,7 +9,7 @@ const WorkoutTable = (props) => {
         'Content-Type': 'application/json',
         Authorization: props.token,
       }),
-    }).then(() => props.fetchWorks());
+    }).then(() => props.fetchWorkouts());
   };
 
   const workoutMapper = () => {
